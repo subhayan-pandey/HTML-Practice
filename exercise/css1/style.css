@@ -1,0 +1,28 @@
+.div1{
+    background-color: blue;
+    color:aliceblue
+}
+.inner{
+    background-color: #ff00cc;
+    color: black;
+}
+.para1{
+    background-color: aquamarine;
+    color:rgb(225,00,10);
+}
+.para2{
+    background-color: aqua;
+    color:black;
+}
+.para3{
+    background-color: blanchedalmond;
+    color:chocolate;
+}
+.para4{
+    border: solid 2px black;
+    color: darkslategrey; 
+}
+.para5{
+    text-align: center;
+    background-color:grey ;
+}
