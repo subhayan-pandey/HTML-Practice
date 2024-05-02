@@ -1,0 +1,71 @@
+
+/* Universal */
+
+*{
+    background-color: beige;
+    
+}
+
+/* List Elements */
+
+.note{
+    background-color: brown;
+    color: beige;
+    height:40px;
+    border: solid 2px black;
+
+}
+
+/* Span Elements */
+
+.attribute{
+    color:black;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: seashell;
+}
+
+/* 2nd List element */
+
+#id-selector-demo{
+    height: 50px;
+    border: solid 7px ;
+    border-radius: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+/* Header Files(h1 & h2) */
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 4px blue;
+}
+
+/* header:hoover */
+
+.header:hover{
+    cursor:crosshair;
+    border:solid 3px yellow;
+    background-color: black;
+    color: white;
+}
+/* Paragraph*/
+
+.intro{
+    background-color: aqua;
+    height: 50px;
+    border-radius: 15%;
+    padding-left:500px ;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+   
