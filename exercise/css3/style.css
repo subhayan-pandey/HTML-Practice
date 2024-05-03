@@ -22,12 +22,14 @@
     border: solid 3px yellow;
   }
 
-  h2{
+ h2{
     display: flex;
     justify-content: center;
     align-items: center;
     color: lightgrey;
     background-color:darkslategray;
+    padding: 10px;
+    border-radius:50%
   }
 
   img{
