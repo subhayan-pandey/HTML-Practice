@@ -1,12 +1,12 @@
-  *{
+   *{
     margin:0;
     padding:0;
-    background-color: black;    
+    background-color:;    
   }
 
   .content{
     display: flex;
-    height: 300px;
+    align-items: center;
     padding-top: 100px;
     background-color: white;
     justify-content: space-evenly;
@@ -22,7 +22,7 @@
     border: solid 3px yellow;
   }
 
- h2{
+  h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +36,8 @@
     height: 200px;
     width: 200px;
     background-color:aquamarine;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   #red{
@@ -45,6 +47,8 @@
   .color-title{
     height:100px;
     color:purple;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif;
     
   }
 
@@ -67,15 +71,17 @@
   .footer{
     background-color: grey;
     color:white;  
-    margin: 200px ;
+    margin: 300px ;
     text-align: center;
-    width: 400px;
+  
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20px;
     
-    
+  .heading-nav:hover{
+    border:solid 4px blue;
+  }
 
   }
 
