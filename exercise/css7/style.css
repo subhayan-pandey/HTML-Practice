@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+
+.box{
+    display: flex;
+    background-color: brown;
+    height: 500px;
+    width: 500px;
+  }
+
+  @media (min-width :200px ) {
+    body{
+        height: 100px;
+        width:100px;
+        background-color: cornflowerblue;
+    }
+    .box{
+        background-color: black;
+        height: 40px;
+        width: 40px;
+    }
+    
+  }
+
+  @media (min-width:400px){
+    body{
+        height: 200px;
+        width:200px;
+        background-color:brown;
+    }
+    .box{
+        background-color: chartreuse;
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+    }
+  }
+
+  @media(min-width:1000px){
+    body{
+        background-color: aqua;
+    }
+    
+    .box{
+        background-color: brown;
+        height: 500px;
+        width: 500px;
+      }
+    
+
+  }
